@@ -1,23 +1,12 @@
-document.addEventListener('DOMContentLoaded', function() {
-    const navLinks = document.querySelectorAll('.nav-links li a');
-    const contentSection = document.getElementById('content');
+// Example JavaScript code
+// Smooth scrolling for anchor links
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+        e.preventDefault();
 
-    // Event listener for navigation links
-    navLinks.forEach(link => {
-        link.addEventListener('click', (e) => {
-            e.preventDefault();
-            const path = e.target.getAttribute('href');
-            loadContent(path);
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
         });
     });
-
-    // Function to load content dynamically
-    function loadContent(path) {
-        fetch(path)
-            .then(response => response.text())
-            .then(html => {
-                contentSection.innerHTML = html;
-            })
-            .catch(error => console.error('Error fetching content:', error));
-    }
 });
+
