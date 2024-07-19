@@ -88,10 +88,11 @@ nav ul li a {
     border-radius: 50%; 
 }
 #portfolio {
-    background-color: #4070f4; 
-    padding: 30px 60px;
-    border-radius: 12px;
     border: none;
+    background: #4070f4; 
+    padding: 30px 60px;
+    color: #fff;
+    border-radius: 12px;
     transition: 0.4s;
 }
 
