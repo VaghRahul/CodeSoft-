@@ -87,6 +87,14 @@ nav ul li a {
     height: auto; 
     border-radius: 50%; 
 }
+#{
+    border: none;
+    background: #4070f4; 
+    padding: 30px 60px;
+    color: #fff;
+    border-radius: 12px;
+    transition: 0.4s;
+}
 button {
     border: none;
     background: #4070f4; 
