@@ -98,10 +98,10 @@ nav ul li a {
 button {
     border: none;
     background: #4070f4; 
-    padding: 30px 60px;
+    padding: 30px 500px;
     color: #fff;
-    border-radius: 12px;
-    transition: 0.4s;
+    border-radius: 22px;
+    transition: 0.3s;
 }
 
 button:hover
