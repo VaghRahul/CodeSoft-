@@ -87,7 +87,7 @@ nav ul li a {
     height: auto; 
     border-radius: 50%; 
 }
-#{
+#portfolio{
     border: none;
     background: #4070f4; 
     padding: 30px 60px;
