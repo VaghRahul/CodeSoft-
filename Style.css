@@ -58,7 +58,7 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
-    font-family: 'Unica One', cursive;
+    font-family: 'Unica One', Monospace;
     font-size: 1.2rem;
 }
 
@@ -69,7 +69,7 @@ nav ul li a {
 
 .header-content h1, .header-content p {
     margin: 0.5rem 0;
-    font-family: 'Unica One', cursive;
+    font-family: 'Unica One', Monospace;
 
 }
 
@@ -126,7 +126,7 @@ footer {
 /* Additional Styles */
 h2 {
     color: #333;
-    font-family: 'Unica One', cursive;
+    font-family: 'Unica One', Monospace;
     font-size: 2.3rem;
 }
 
